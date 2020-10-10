@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;800;900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-wrapper">
+    <header>
+      <h1>Todo List</h1>
+      <div class="tasks-status">
+        <h3><span id="total-tasks">0</span> Total Tasks</h3>
+        <h3><span id="finished-tasks">0</span> Finished Tasks</h3>
+      </div>
+    </header>
+    <div class="main">
+      <div class="input-field">
+        <input type="text" id="input" maxlength="20" placeholder="Add a task...">
+        <button id="add" type="submit">
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="tasks">
+        <!--Will be created with JS-->
+        <!--<div class="added-tasks">
+          <p>Finish up the wireframes for MVP</p>
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+        <div class="added-tasks">
+          <p>Make out dishes</p>
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </div>
+        <div class="added-tasks">
+          <p>Take out trash</p>
+          <i class="fa fa-minus" aria-hidden="true"></i>
+        </div>-->
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
